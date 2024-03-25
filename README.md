@@ -6,7 +6,7 @@ python main.py --exp_name=SimGNN
 ```
 
 | **Parameter** | **Value** |
-|:-------------:| :------------:|
+|:-------------| :------------:|
 | Batch size | 16 |
 | Bins | 16 |
 | Bottle neck neurons | 16 |
