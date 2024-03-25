@@ -5,7 +5,7 @@
 python main.py --exp_name=SimGNN
 ```
 
-| Parameter | Value |
+| **Parameter** | **Value** |
 |:-------------:| :------------:|
 | Batch size | 16 |
 | Bins | 16 |
