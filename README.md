@@ -5,6 +5,18 @@
 python main.py --exp_name=SimGNN
 ```
 
+| Parameter | Value      |
+|:--------:| -------------:|
+| left-aligned Batch size | left-aligned 16 |
+| left-aligned Bins  | left-aligned 16 |
+| left-aligned Bottle neck neurons | left-aligned 16 |
+| left-aligned Dropout | left-aligned 0.5 |
+| left-aligned Batch size | left-aligned 16 |
+
+
+
+
+
 ![image](https://github.com/XiaShan1227/SimGNN/assets/67092235/f6f74ceb-df57-41c3-86f0-b72bc56ce3ef)
 
 
