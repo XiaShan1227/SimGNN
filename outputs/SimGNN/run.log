@@ -1,0 +1,55 @@
++---------------------+--------+
+|      Parameter      | Value  |
++=====================+========+
+| Batch size          | 16     |
++---------------------+--------+
+| Bins                | 16     |
++---------------------+--------+
+| Bottle neck neurons | 16     |
++---------------------+--------+
+| Dropout             | 0.5    |
++---------------------+--------+
+| Epochs              | 5      |
++---------------------+--------+
+| Exp name            | SimGNN |
++---------------------+--------+
+| Filters 1           | 128    |
++---------------------+--------+
+| Filters 2           | 64     |
++---------------------+--------+
+| Filters 3           | 32     |
++---------------------+--------+
+| Gpu index           | 0      |
++---------------------+--------+
+| Histogram           | True   |
++---------------------+--------+
+| Learning rate       | 0.001  |
++---------------------+--------+
+| Seed                | 16     |
++---------------------+--------+
+| Tensor neurons      | 16     |
++---------------------+--------+
+| Weight decay        | 0.0005 |
++---------------------+--------+
+Using GPU: 0
+SimGNN(
+  (convolution_1): GCNConv(16, 128)
+  (convolution_2): GCNConv(128, 64)
+  (convolution_3): GCNConv(64, 32)
+  (attention): AttentionModule()
+  (tensor_network): TenorNetworkModule()
+  (fully_connected_first): Linear(in_features=32, out_features=16, bias=True)
+  (scoring_layer): Linear(in_features=16, out_features=1, bias=True)
+)
+Model Parameter: 31505
+Using Adam
+Epoch #0, Train_Loss: 0.073688
+Epoch #1, Train_Loss: 0.051526
+Epoch #2, Train_Loss: 0.034400
+Epoch #3, Train_Loss: 0.033908
+Epoch #4, Train_Loss: 0.031189
+The current best model is saved in: ******** outputs/SimGNN/model.pth *********
+********** TEST START **********
+Reload Best Model
+The current best model is saved in: ******** outputs/SimGNN/model.pth *********
+Baseline_Error: 0.415967, Model_Test_Error: 0.537243
