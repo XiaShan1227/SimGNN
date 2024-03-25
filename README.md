@@ -23,26 +23,6 @@ python main.py --exp_name=SimGNN
 | Tensor neurons | 16 |
 | Weight decay | 0.0005 |
 
-<table>
-  <tr>
-    <th style="background-color: #cccccc;">列1标题</th>
-    <th style="background-color: #cccccc;">列2标题</th>
-    <th style="background-color: #cccccc;">列3标题</th>
-  </tr>
-  <tr>
-    <td style="background-color: #eeeeee;">单元格1</td>
-    <td style="background-color: #eeeeee;">单元格2</td>
-    <td style="background-color: #eeeeee;">单元格3</td>
-  </tr>
-  <tr>
-    <td style="background-color: #eeeeee;">单元格4</td>
-    <td style="background-color: #eeeeee;">单元格5</td>
-    <td style="background-color: #eeeeee;">单元格6</td>
-  </tr>
-</table>
-
-
 <img src="https://github.com/XiaShan1227/SimGNN/assets/67092235/782867c0-62bb-43cd-92b7-abba4f3f3b2a" alt="Image" width="600" height="500">
-
 
 Code Framework Reference: [SimGNN](https://github.com/benedekrozemberczki/SimGNN)
