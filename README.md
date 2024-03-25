@@ -7,8 +7,8 @@ python main.py --exp_name=SimGNN
 
 ![image](https://github.com/XiaShan1227/SimGNN/assets/67092235/f6f74ceb-df57-41c3-86f0-b72bc56ce3ef)
 
-![image](https://github.com/XiaShan1227/SimGNN/assets/67092235/782867c0-62bb-43cd-92b7-abba4f3f3b2a)
-<img src="https://github.com/XiaShan1227/SimGNN/assets/67092235/782867c0-62bb-43cd-92b7-abba4f3f3b2a" alt="Image" width="300" height="200">
+
+<img src="https://github.com/XiaShan1227/SimGNN/assets/67092235/782867c0-62bb-43cd-92b7-abba4f3f3b2a" alt="Image" width="600" height="300">
 
 
 Code Framework Reference: [SimGNN](https://github.com/benedekrozemberczki/SimGNN)
