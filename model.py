@@ -44,10 +44,10 @@ class AttentionModule(nn.Module):
         return representation
 
 
-class TenorNetworkModule(nn.Module):
+class TensorNetworkModule(nn.Module):
     "Neural Tensor Network"
     def __init__(self, args):
-        super(TenorNetworkModule, self).__init__()
+        super(TensorNetworkModule, self).__init__()
         self.args = args
         self.setup_weights()
         self.init_parameters()
@@ -100,7 +100,7 @@ class SimGNN(nn.Module):
 
         self.attention = AttentionModule(self.args)
 
-        self.tensor_network = TenorNetworkModule(self.args)
+        self.tensor_network = TensorNetworkModule(self.args)
 
         self.fully_connected_first = nn.Linear(self.feature_count, self.args.bottle_neck_neurons)
         self.scoring_layer = nn.Linear(self.args.bottle_neck_neurons, 1)

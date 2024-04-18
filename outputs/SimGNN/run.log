@@ -37,7 +37,7 @@ SimGNN(
   (convolution_2): GCNConv(128, 64)
   (convolution_3): GCNConv(64, 32)
   (attention): AttentionModule()
-  (tensor_network): TenorNetworkModule()
+  (tensor_network): TensorNetworkModule()
   (fully_connected_first): Linear(in_features=32, out_features=16, bias=True)
   (scoring_layer): Linear(in_features=16, out_features=1, bias=True)
 )
