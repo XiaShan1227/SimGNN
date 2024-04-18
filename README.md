@@ -23,6 +23,6 @@ python main.py --exp_name=SimGNN
 | Tensor neurons | 16 |
 | Weight decay | 0.0005 |
 
-<img src="https://github.com/XiaShan1227/SimGNN/assets/67092235/782867c0-62bb-43cd-92b7-abba4f3f3b2a" alt="Image" width="600" height="500">
+<img src="https://github.com/XiaShan1227/SimGNN/assets/67092235/a893764c-81c4-4792-b1f9-fbad70e5e17a" alt="Image" width="600" height="500">
 
 Code Framework Reference: [SimGNN](https://github.com/benedekrozemberczki/SimGNN)
